@@ -1,0 +1,37 @@
+.layout {
+    background-color: #EEEEE7;
+}
+
+.layout__cell {
+    max-width: 1280px;
+    padding: 20px 32px;
+    background-color: #fff;
+
+}
+
+.content_left {
+    float: none;
+    padding-right: 0;
+}
+
+.sidebar_right,
+.layout__row_footer,
+.layout__row_footer-links,
+.layout__row_services,
+.post-share {
+    display: none;
+}
+
+.comment__head_new-comment.comment__head_topic-author {
+    background-image: linear-gradient(to left, #f5fbe5, #e7f3ff);
+}
+
+.comment__message,
+.comment-form__preview {
+    font-size: 16px;
+}
+
+.layout__row_navbar>.layout__cell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
