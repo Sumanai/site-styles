@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Passport.Yandex
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document domain("passport.yandex.ru") {
+    .passp-password-field__eye {
+        right: 24px;
+    }
+}
