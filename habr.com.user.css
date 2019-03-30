@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Habrahabr
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.1
+@version        1.0.2
 @description    Small fix
 @author         Sumanai
 ==/UserStyle== */
@@ -30,6 +30,7 @@
     .layout__row_footer,
     .layout__row_footer-links,
     .layout__row_services,
+    .page-header__banner,
     .post-share {
         display: none;
     }
