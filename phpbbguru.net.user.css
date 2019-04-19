@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           phpbbguru.net
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document domain("phpbbguru.net") {
+    .yandexpayment,
+    #nx-botslwrap {
+        display: none;
+    }
+}
