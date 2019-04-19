@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           Yandex
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.0
+@version        1.0.1
 @description    Small fix
 @author         Sumanai
 ==/UserStyle== */
 
 @-moz-document domain("yandex.ru") {
     .banner,
+    .verified-list__wrapper,
     .promo-button {
         display: none;
     }
