@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           toster.ru
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document domain("toster.ru") {
+    #register-banner,
+    .empty-block,
+    .promo-block {
+        display: none !important;
+    }
+}
