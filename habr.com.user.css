@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Habrahabr
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.2
+@version        1.0.3
 @description    Small fix
 @author         Sumanai
 ==/UserStyle== */
@@ -47,5 +47,14 @@
     .layout__row_navbar>.layout__cell {
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .post__tag,
+    .hub-link,
+    .post__text a,
+    .comment__message a,
+    .comment-form__preview a{
+        color: #00E;
+        text-decoration: underline;
     }
 }
