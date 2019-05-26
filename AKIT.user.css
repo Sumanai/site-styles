@@ -1,0 +1,77 @@
+/* ==UserStyle==
+@name           Предупреждение об АКИТ
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Чтобы случайно не купить у них зубочистки
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document
+    domain("5ka.ru"),
+    domain("adamas.ru"),
+    domain("auchan.ru"),
+    domain("befree.ru"),
+    domain("bonprix.ru"),
+    domain("chicco.ru"),
+    domain("citilink.ru"),
+    domain("detmir.ru"),
+    domain("dns-shop.ru"),
+    domain("elc-russia.ru"),
+    domain("eldorado.ru"),
+    domain("euroset.ru"),
+    domain("galaxystore.ru"),
+    domain("goods.ru"),
+    domain("holodilnik.ru"),
+    domain("karusel.ru"),
+    domain("lada-image.ru"),
+    domain("lamoda.ru"),
+    domain("leroymerlin.ru"),
+    domain("loverepublic.ru"),
+    domain("mascotte.ru"),
+    domain("metro-cc.ru"),
+    domain("mir-kubikov.ru"),
+    domain("mvideo.ru"),
+    domain("myToys.ru"),
+    domain("okmarket.ru"),
+    domain("ottogroup.com"),
+    domain("ozon.ru"),
+    domain("perekrestok.ru"),
+    domain("prenatal.ru"),
+    domain("pult.ru"),
+    domain("re-store.ru"),
+    domain("sc-store.ru"),
+    domain("shoppinglive.ru"),
+    domain("snowqueen.ru"),
+    domain("sokolov.ru"),
+    domain("sportmaster.ru"),
+    domain("street-beat.ru"),
+    domain("svyaznoy.ru"),
+    domain("technopoint.ru"),
+    domain("thomas-muenz.ru"),
+    domain("ulmart.ru"),
+    domain("unode50.ru"),
+    domain("up-and-run.ru"),
+    domain("utkonos.ru"),
+    domain("wildberries.ru"),
+    domain("witt-international.ru"),
+    domain("x5.ru"),
+    domain("zarina.ru"),
+    domain("zenden.ru")
+{
+    body::after {
+        display: block;
+        content: "Пидарасы из АКИТ";
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding-top: 400px;
+        color: #f00;
+        font-size: 50px;
+        background-color: #0009;
+        z-index: 9999999;
+        pointer-events: none;
+    }
+}
