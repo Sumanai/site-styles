@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           GitHub
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    * {
+        -moz-tab-size: 4;
+    }
+}
