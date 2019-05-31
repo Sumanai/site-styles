@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           Google seach
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix search page
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document
+    url-prefix("https://www.google.com/search"),
+    url-prefix("https://www.google.ru/search")
+{
+    /* Убирает ненавистную (за)лупу в строке поиска  */
+    .trAmQb {
+        padding: 0 3px 0 0;
+        width: 0;
+    }
+    
+    .nS8rZ {
+        display: none;
+    }
+}
