@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name           livejournal.com
+@namespace      https://github.com/Sumanai/site-styles
+@version        1.0.0
+@description    Small fix
+@author         Sumanai
+==/UserStyle== */
+
+@-moz-document domain("livejournal.com") {
+    /* Убираем панель снизу */
+    .b-discoverytimes-wrapper {
+        display: none;
+    }
+    
+    /* Контент по-шире */
+    .mdspost-entry__aside {
+        display: none;
+    }
+    .mdspost-entry__wrapper,
+    .aentry-post.mdspost-entry__content {
+        max-width: none;
+    }
+    
+    /* Убираем лишние элементы */
+    .s-footer,
+    .stories,
+    .p-ljtimes .s-layout::after {
+        display: none;
+    }
+}
