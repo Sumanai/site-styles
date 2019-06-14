@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Habrahabr
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.3
+@version        1.0.4
 @description    Small fix
 @author         Sumanai
 ==/UserStyle== */
@@ -52,6 +52,7 @@
     .post__tag,
     .hub-link,
     .post__text a,
+    .post__text-html a,
     .comment__message a,
     .comment-form__preview a{
         color: #00E;
