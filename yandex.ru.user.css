@@ -10,7 +10,8 @@
     .banner,
     .verified-list__wrapper,
     .head-promo-plus__wrapper,
-    .promo-button {
+    .promo-button,
+    .videowiz-viewer {
         display: none;
     }
 }
