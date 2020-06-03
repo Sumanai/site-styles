@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Предупреждение об АКИТ
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.0
+@version        1.0.1
 @description    Чтобы случайно не купить у них зубочистки
 @author         Sumanai
 ==/UserStyle== */
@@ -9,7 +9,10 @@
 @-moz-document
     domain("5ka.ru"),
     domain("adamas.ru"),
+    domain("akusherstvo.ru"),
     domain("auchan.ru"),
+    domain("av.ru"),
+    domain("asg.ru"),
     domain("befree.ru"),
     domain("bonprix.ru"),
     domain("chicco.ru"),
@@ -23,6 +26,7 @@
     domain("goods.ru"),
     domain("holodilnik.ru"),
     domain("karusel.ru"),
+    domain("labirint.ru"),
     domain("lada-image.ru"),
     domain("lamoda.ru"),
     domain("leroymerlin.ru"),
@@ -32,10 +36,13 @@
     domain("mir-kubikov.ru"),
     domain("mvideo.ru"),
     domain("myToys.ru"),
+    domain("mytoys.ru"),
     domain("okmarket.ru"),
+    domain("onlinetrade.ru"),
     domain("ottogroup.com"),
     domain("ozon.ru"),
     domain("perekrestok.ru"),
+    domain("pochta.ru"),
     domain("prenatal.ru"),
     domain("pult.ru"),
     domain("re-store.ru"),
@@ -48,11 +55,13 @@
     domain("svyaznoy.ru"),
     domain("technopoint.ru"),
     domain("thomas-muenz.ru"),
+    domain("tsum.ru"),
     domain("ulmart.ru"),
     domain("unode50.ru"),
     domain("up-and-run.ru"),
     domain("utkonos.ru"),
     domain("wildberries.ru"),
+    domain("winelab.ru"),
     domain("witt-international.ru"),
     domain("x5.ru"),
     domain("zarina.ru"),
