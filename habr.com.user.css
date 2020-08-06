@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Habrahabr
 @namespace      https://github.com/Sumanai/site-styles
-@version        1.0.4
+@version        1.0.5
 @description    Small fix
 @author         Sumanai
 ==/UserStyle== */
@@ -26,7 +26,7 @@
         padding-right: 0;
     }
 
-    .sidebar_right,
+    .sidebar,
     .layout__row_footer,
     .layout__row_footer-links,
     .layout__row_services,
